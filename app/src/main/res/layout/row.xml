@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="10dp">
+
+    <LinearLayout
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_margin="5dp"
+                android:textColor="#555555"
+                android:text="Nome"
+                android:gravity="center"
+
+                app:fontFamily="@font/ubuntu_bold"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:textStyle="normal"
+                android:textSize="24sp"
+                android:layout_margin="5dp"
+                android:textColor="#555555"
+                android:text="00:00"
+                android:gravity="center"
+
+                app:fontFamily="@font/ubuntu_bold"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textStyle="normal"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                android:textColor="#555555"
+                android:text="Descricao"
+                android:gravity="center"
+                app:fontFamily="@font/ubuntu_bold"/>
+        <TextView
+                android:id="@+id/Important"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/line_rounded"
+                android:fontFamily="@font/ubuntu_bold"
+                android:textSize="24sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
